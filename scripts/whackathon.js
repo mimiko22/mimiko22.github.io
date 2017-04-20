@@ -115,7 +115,7 @@
 			{				
 				if (mole.state == "dead")
 				{
-					$("#Mole_" + mole.id).attr("src", 'images/mole' + getRandomInt(0, moleCount-1) + '.jpg');
+					$("#Mole_" + mole.id).attr("src", 'images/mole12.jpg');
 					mole.state = "alive";
 					mole.element.removeClass("hidden").removeClass("dead").addClass("visible");
 					mole.timer = getRandomInt(500, 1000);					
