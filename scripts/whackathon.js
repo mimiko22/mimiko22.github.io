@@ -8,17 +8,17 @@
 		var score = 0;
 		var running = 0;
 		var moles = [];
-		var moleCount = 12;
+		var moleCount = 9;
 		var hypes = [
-			"big data consultant",
-			"secret agent",
-			"value architect",
-			"italian guru",
-			"iot king",
-			"ux expert",
-			"bla bla blaa",
-			"master of things",
-			"creme de la creme",
+			"死人头",
+			"让你乱说话",
+			"你傻不傻",
+			"猪脑子",
+			"你还乱动",
+			"长点心吧你",
+			"哎..",
+			"还敢不敢",
+			"长本事了啊你",
 			"cloud engineer",
 			"evangelist",
 			"software ninja"			
@@ -53,7 +53,7 @@
 				moleContainer.appendTo(canvas);
 		  
 				// Create image
-				var moleImg = $("<img></img>", {id: "Mole_"+i, class:'mole hidden', src:'images/mole' + i + '.jpg'})
+				var moleImg = $("<img></img>", {id: "Mole_"+i, class:'mole hidden', src:'images/mole12.jgp'})
 				moleImg.bind('dragstart', function(){ return false; });
 				moleImg.click(createClickHandler(i));					
 				moleImg.appendTo(moleContainer);
@@ -63,7 +63,7 @@
 				molehype.appendTo(moleContainer);
 
 				// Add the whack =)
-				var whackImg = $("<img></img>", {id: "Whack_" + 1, class:'whack', src:"images/whack.png"});
+				var whackImg = $("<img></img>", {id: "Whack_" + 1, class:'whack', src:"images/gohell.png"});
 				whackImg.appendTo(moleContainer);
 				
 				// Create the mole
