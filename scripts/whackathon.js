@@ -53,7 +53,7 @@
 				moleContainer.appendTo(canvas);
 		  
 				// Create image
-				var moleImg = $("<img></img>", {id: "Mole_"+i, class:'mole hidden', src:'images/mole12.jgp'})
+				var moleImg = $("<img></img>", {id: "Mole_"+i, class:'mole hidden', src:'images/mole12.jpg'})
 				moleImg.bind('dragstart', function(){ return false; });
 				moleImg.click(createClickHandler(i));					
 				moleImg.appendTo(moleContainer);
